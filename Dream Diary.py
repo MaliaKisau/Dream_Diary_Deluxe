@@ -1,9 +1,7 @@
 from typing import List, Dict
 
 def main() -> None:
-
     """Main function to run the Dream Diary program."""
-
     print("Your Dream Diary Deluxe!")
     diary: List[Dict[str, str]]  # List to store dream entries
 
@@ -21,9 +19,7 @@ while True:
         print("Invalid choice. Please try again.")
 
 def add_entry(diary: List[Dict[str, str]]) -> None:
-
     """Function to add a new dream entry to the diary."""
-
     print("\nAdd New Dream Entry: ")
     title = str  = input("Enter Titles: ")
     description = str = input("Enter Description: ")
